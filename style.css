@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#dashboard{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.primary1{
+    display: block;
+}
+
+.primary2{
+    display: block;
+}
+
+#menuBar{
+    border: 1px solid black;
+    grid-row: 1 / 5;
+}
+
+#navigationBar{
+    border: 1px solid black;
+    grid-row: 1 / 2;
+}
+
+#accountContent{
+    border: 1px solid black;
+    grid-row: 2 / 5;
+}
