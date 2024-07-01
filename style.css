@@ -122,7 +122,6 @@ body{
 
 #miniProfile{
     grid-row: 1 / 3;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content:center
@@ -130,7 +129,7 @@ body{
 
 #notifications{
     height: 25px;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 #notifications:hover{
@@ -145,7 +144,7 @@ body{
 
 #name{
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 /* Profile */
@@ -228,12 +227,11 @@ body{
 
 #yourProjects p{
     margin-block: 0;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 #rightBar{
     grid-column: 4 / 5;
-    margin-right: 15px;
 }
 
 #announcements{
@@ -296,11 +294,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .project{
     background-color: white;
-    max-width: 550px;
+    max-width: 375px;
     min-width: 200px;
     border-radius: 5px;
     padding-block: 6vh;
